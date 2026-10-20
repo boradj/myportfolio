@@ -27,7 +27,7 @@ const Resume = () => {
             </legend>
             <div className=" relative">
               {/* design */}
-              <div className="design flex absolute left-[-150px] top-1/2 items-center rotate-[90deg] sm:left-[-160px] ">
+              <div className="design flex absolute left-[-150px] top-1/2 items-center rotate-90 sm:left-[-160px] ">
                 <div className="c1 w-[12px] h-[12px] rounded-full bg-white border-2 border-yellow-500"></div>
                 <div className="line w-[230px] bg-gray-300 h-[2px] sm:w-[250px]"></div>
                 <div className="c2 w-[12px] h-[12px] rounded-full bg-white border-2 border-yellow-500"></div>
@@ -43,7 +43,7 @@ const Resume = () => {
                 <span className=" text-[.9rem] font-semibold text-yellow-500 sm:text-base">
                   June 2021 - Feb 2022
                 </span>
-                <p className=" text-[.9rem] text-justify break-words text-gray-500">
+                <p className=" text-[.9rem] text-justify wrap-break-word text-gray-500">
                 Managed data processing for filter production, 
                 conducted statistical analyses, and developed 
                 software solutions. 
@@ -64,7 +64,7 @@ const Resume = () => {
             </legend>
             <div className=" relative">
               {/* design */}
-              <div className="design flex absolute left-[-150px] top-1/2 items-center rotate-[90deg] sm:left-[-160px] ">
+              <div className="design flex absolute left-[-150px] top-1/2 items-center rotate-90 sm:left-[-160px] ">
                 <div className="c1 w-[12px] h-[12px] rounded-full bg-white border-2 border-yellow-500"></div>
                 <div className="line w-[230px] bg-gray-300 h-[2px] sm:w-[250px]"></div>
                 <div className="c2 w-[12px] h-[12px] rounded-full bg-white border-2 border-yellow-500"></div>

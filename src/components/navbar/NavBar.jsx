@@ -103,7 +103,7 @@ const NavBar = ({ toggleDarkMode, darkMode }) => {
                   }`}
                 >
                   {item.name}
-                  <span class="text-red-500 font-bold text-[25px] pl-[1px]">.</span> 
+                  <span class="text-red-500 font-bold text-[25px] pl-px">.</span> 
                 </a>
               </li>
             ))}

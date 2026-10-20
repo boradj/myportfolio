@@ -47,7 +47,7 @@ const Skills = ({ darkMode }) => {
             {/* left box */}
             <div
               data-aos="zoom-in"
-              className="progress flex items-center h-[100%] justify-end md:justify-center"
+              className="progress flex items-center h-full justify-end md:justify-center"
             >
               <div className=" flex flex-col gap-6  w-3/4  my-5 md:w-[90%]">
                 <ProgressBar logo={<SiPytorch />} name={"Pytorch / Tensorflow"} value={95} />
